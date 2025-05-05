@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import "tailwindcss";
+
+/* styles.css or your main CSS file */
+@theme {
+  --color-midnight: #121063;
+  --color-tahiti: #3ab7bf;
+  --color-bermuda: #78dcca;
+
+  /* Night colors */
+  --color-night-50: #0a0b18;
+  --color-night-100: #090a16;
+  --color-night-200: #080814;
+  --color-night-300: #070713;
+  --color-night-400: #60a6d1; /* Light Blue */
+  --color-night-500: #050612;
+  --color-night-600: #04050e;
+  --color-night-700: #03040b;
+  --color-night-800: #020308;
+  --color-night-900: #010204;
+
+  /* Light Night colors */
+  --color-lnight-50: #0e1137; /* Base color */
+  --color-lnight-100: #10163f; /* Slightly lighter */
+  --color-lnight-200: #1a1f57; /* Lighter shade */
+  --color-lnight-300: #2d3a74; /* Even lighter */
+  --color-lnight-400: #405188; /* Lighter still, still deep */
+  --color-lnight-500: #59699c; /* Lighter blue tone */
+  --color-lnight-600: #7a84c0; /* Mid blue tone */
+  --color-lnight-700: #9c9fdd; /* Light blue tone */
+  --color-lnight-800: #bfc3f3; /* Very light blue */
+  --color-lnight-900: #d9d8f7; /* Almost white, soft blue */
+
+  /* Bronze colors */
+  --color-bronze-50: #f5e8d4;
+  --color-bronze-100: #e2bc8c;
+  --color-bronze-200: #d7a762;
+  --color-bronze-300: #cc9247;
+  --color-bronze-400: #c17d35;
+  --color-bronze-500: #a46d2a;
+  --color-bronze-600: #8c5f24;
+  --color-bronze-700: #744f1f;
+  --color-bronze-800: #5c3f19;
+  --color-bronze-900: #442f13;
+}
+
+body {
+  font-family: var(--font-poppins);
+  @apply bg-night-50 text-night-900;
+}
