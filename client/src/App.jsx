@@ -7,6 +7,7 @@ import Services from "./pages/services/Services";
 import Reach from "./pages/reach/Reach";
 import Company from "./pages/company/Company";
 import Navigation from "./components/menu/Navigation";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/reach-us" element={<Reach />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

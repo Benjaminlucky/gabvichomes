@@ -38,3 +38,63 @@ export const subsidiaries = [
     url: "https://www.gabvichomes.com",
   },
 ];
+
+export const value = [
+  {
+    letter: "G",
+    title: "Growth & Innovation",
+    desc: "We embrace continuous improvement, leveraging innovation to drive progress in the real estate industry.",
+  },
+  {
+    letter: "A",
+    title: "Accountability & Integrity",
+    desc: "We uphold transparency, honesty, and ethical practices in all our dealings, ensuring trust and reliability.",
+  },
+  {
+    letter: "B",
+    title: "Beneficial Partnerships",
+    desc: "We foster strong relationships with clients, investors, and stakeholders to create value-driven opportunities.",
+  },
+  {
+    letter: "V",
+    title: "Visionary Excellence",
+    desc: "We set high standards, striving for excellence in every project to deliver premium real estate solutions.",
+  },
+  {
+    letter: "I",
+    title: "Impact & Sustainability",
+    desc: "We are committed to sustainable development that positively impacts communities and enhances quality of life.",
+  },
+  {
+    letter: "C",
+    title: "Customer-Centric Approach",
+    desc: "Our clients remain our priority, and we tailor solutions to meet their unique needs, ensuring long-term satisfaction.",
+  },
+];
+
+export const testimony = [
+  {
+    name: "Oluwatobi A. ",
+    location: "Lagos, Nigeria",
+    desc: "Gabvic Homes made owning land in Lagos a stress-free experience. From documentation to site location, everything was seamless. I highly recommend them to anyone looking to invest with peace of mind.",
+    image: "/assets/testifyer1.png",
+  },
+  {
+    name: "Chiamaka N.",
+    location: "Houston, USA",
+    desc: "As a Nigerian living in the U.S., investing back home always felt risky—until I discovered Gabvic Homes. Their professionalism, constant updates, and transparency gave me full confidence. Now I own a plot at Hilltop Castle Estate!",
+    image: "/assets/testifyer2.jpeg",
+  },
+  {
+    name: "David O.",
+    location: "Abuja, Nigeria",
+    desc: "What stood out for me was how knowledgeable and responsive their team was. They guided me through the entire process and delivered exactly as promised. Gabvic Homes is the real deal.",
+    image: "/assets/testifyer3.jpeg",
+  },
+  {
+    name: "Sandra M.",
+    location: "Frankfurt, Germany",
+    desc: "Alaafin Imperial Court is one of the most unique real estate concepts I’ve seen—blending culture, class, and value. Gabvic Homes is redefining real estate with vision and purpose.",
+    image: "/assets/testifyer4.jpg",
+  },
+];

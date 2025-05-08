@@ -47,7 +47,7 @@ const Navigation = () => {
           {location.pathname !== "/reach-us" && (
             <Link
               to="/reach-us"
-              className="ml-2 px-4 py-2 rounded-lg bg-bronze-500 text-night-500 hover:bg-bronze-700 hover:text-gray-100 transition font-semibold"
+              className="ml-2 px-4 py-2 rounded-lg bg-bronze-700 text-white hover:bg-bronze-500 hover:text-gray-100 transition font-semibold"
             >
               Reach Us
             </Link>
