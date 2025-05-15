@@ -50,7 +50,7 @@ function Hero() {
         </div>
         <div className="bottom flex flex-col justify-center items-center mt-16">
           <div className="subTitle">
-            <h3 className="w-full text-2xl md:text-3xl w-full text-center text-bronze-500">
+            <h3 className="w-full text-2xl md:text-3xl text-center text-bronze-500">
               Explore Our Subsidiaries
             </h3>
           </div>
@@ -80,7 +80,12 @@ function Hero() {
                     <h3 className="text-lg md:text-2xl font-bold text-center text-lnight-700">
                       {sub.title}
                     </h3>
-                    <p className="text-sm md:text-lg text-center text-bronze-500 font-semibold">
+                    {sub.alafin && (
+                      <p className="text-base md:text-xl text-bronze-500 font-semibold mt-1">
+                        {sub.alafin}
+                      </p>
+                    )}
+                    <p className="text-sm md:text-lg text-center text-bronze-500 font-semibold mt-2">
                       {sub.description}
                     </p>
                   </div>

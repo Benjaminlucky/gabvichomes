@@ -42,10 +42,10 @@ function Intro() {
         <motion.div className="left" variants={fadeVariant}>
           <div className="subTitle mb-4">
             <p className="text-justify leading-relaxed text-lnight-700 text-[12px] md:text-xl">
-              Gabvic Homes Limited is a global real estate and investment group
-              with operations in Nigeria and the USA. Through our subsidiaries,
-              we deliver premium housing, smart property investments, and
-              business ventures that drive sustainable growth.
+              Gabvic Homes is a global real estate and investment group with
+              operations in Nigeria and the USA. Through our subsidiaries, we
+              deliver premium housing, smart property investments, and business
+              ventures that drive sustainable growth.
             </p>
           </div>
           <div className="mainContent">
@@ -59,7 +59,7 @@ function Intro() {
         <motion.div className="right" variants={imageVariant}>
           <div className="imageContainer w-full overflow-hidden rounded-xl shadow-lg">
             <img
-              src="/assets/intro.jpg"
+              src="/assets/intro.jpeg"
               alt="A model of one of the development of Gabvic Homes Limited"
               className="w-full h-auto object-cover rounded-xl shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out"
             />
