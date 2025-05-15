@@ -34,7 +34,7 @@ export const subsidiaries = [
   {
     title: "(Àlààfin Lamidi Adeyemi III Court) ",
     alafin: "Àlààfin Imperial Court.",
-    description: "(The Emperor Sanctuary)",
+    // description: "(The Emperor Sanctuary)",
     image: "/assets/obaAdeyemi.jpg",
     url: "https://www.gabvichomes.com",
   },
