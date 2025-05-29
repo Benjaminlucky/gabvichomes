@@ -42,7 +42,7 @@ function Intro() {
         <motion.div className="left" variants={fadeVariant}>
           <div className="subTitle mb-4">
             <p className="text-justify leading-relaxed text-lnight-700 text-[12px] md:text-xl">
-              Gabvic Homes is a global real estate and investment group with
+              GabvicHomes is a global real estate and investment group with
               operations in Nigeria and the USA. Through our subsidiaries, we
               deliver premium housing, smart property investments, and business
               ventures that drive sustainable growth.

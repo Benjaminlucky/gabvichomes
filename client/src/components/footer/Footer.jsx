@@ -8,7 +8,7 @@ function Footer() {
         <div className="footer__content flex flex-col md:flex-row justify-between items-center">
           <div className="left text-center text-[12px] md:text-lg font-semibold text-lnight-800">
             <p>
-              &copy; {currentYear} All Rights Reserved | Gabvic Homes Limited
+              &copy; {currentYear} All Rights Reserved | GabvicHomes Limited
             </p>
           </div>
           <div className="right text-center text-[12px] md:text-lg font-semibold text-night-500">

@@ -60,11 +60,11 @@ function Testimony() {
                   animate={controls}
                   variants={cardVariants}
                 >
-                  <div className="card__content w-full flex flex-col justify-center items-center py-8 px-6">
+                  <div className="card__content w-full flex  flex-col justify-center items-center py-8 px-6">
                     <img
                       src={item.image}
                       alt="testimony"
-                      className=" object-cover w-24 h-24 rounded-full mb-6"
+                      className=" object-cover w-24 h-24  rounded-full mb-6"
                     />
                     <p className="cardText text-center hyphens-auto">
                       {item.desc}

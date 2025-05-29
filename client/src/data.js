@@ -75,27 +75,27 @@ export const value = [
 
 export const testimony = [
   {
-    name: "Oluwatobi A. ",
+    name: "Mrs Adeola O. ",
     location: "Lagos, Nigeria",
-    desc: "Gabvic Homes made owning land in Lagos a stress-free experience. From documentation to site location, everything was seamless. I highly recommend them to anyone looking to invest with peace of mind.",
-    image: "/assets/testifyer1.png",
+    desc: "GabvicHomes made owning land in Lagos a stress-free experience. From documentation to site location, everything was seamless. I highly recommend them to anyone looking to invest with peace of mind.",
+    image: "/assets/MrsAdeolaOlabiy.jpeg",
   },
   {
-    name: "Chiamaka N.",
-    location: "Houston, USA",
-    desc: "As a Nigerian living in the U.S., investing back home always felt risky—until I discovered Gabvic Homes. Their professionalism, constant updates, and transparency gave me full confidence. Now I own a plot at Hilltop Castle Estate!",
-    image: "/assets/testifyer2.jpeg",
+    name: "Mrs Ayodele.",
+    location: "London, UK",
+    desc: "As a Nigerian living in the U.K., investing back home always felt risky—until I discovered GabvicHomes. Their professionalism, constant updates, and transparency gave me full confidence. Now I own a plot at Hilltop Castle Estate!",
+    image: "/assets/MrsAyodele.jpeg",
   },
   {
-    name: "David O.",
+    name: "Mr. Jamiu K.",
     location: "Abuja, Nigeria",
-    desc: "What stood out for me was how knowledgeable and responsive their team was. They guided me through the entire process and delivered exactly as promised. Gabvic Homes is the real deal.",
-    image: "/assets/testifyer3.jpeg",
+    desc: "What stood out for me was how knowledgeable and responsive their team was. They guided me through the entire process and delivered exactly as promised. GabvicHomes is the real deal.",
+    image: "/assets/MrJamiuKolawole.jpeg",
   },
   {
-    name: "Sandra M.",
-    location: "Frankfurt, Germany",
-    desc: "Alaafin Imperial Court is one of the most unique real estate concepts I’ve seen—blending culture, class, and value. Gabvic Homes is redefining real estate with vision and purpose.",
-    image: "/assets/testifyer4.jpg",
+    name: "Hon. Victor O.",
+    location: "USA",
+    desc: "Alaafin Imperial Court is one of the most unique real estate concepts I’ve seen—blending culture, class, and value. GabvicHomes is redefining real estate with vision and purpose.",
+    image: "/assets/HonVictorOdigwe.jpeg",
   },
 ];
