@@ -20,7 +20,7 @@ export const socialLinks = [
 
 export const subsidiaries = [
   {
-    title: "Gabvic Homes Properties Ltd",
+    title: "Gabvichomes & Properties Limited",
     description: "(Nigeria's leading real estate Developer)",
     image: "/assets/hilltopCastle.webp",
     url: "#",
@@ -97,5 +97,29 @@ export const testimony = [
     location: "USA",
     desc: "Alaafin Imperial Court is one of the most unique real estate concepts I’ve seen—blending culture, class, and value. GabvicHomes is redefining real estate with vision and purpose.",
     image: "/assets/HonVictorOdigwe.jpeg",
+  },
+];
+
+export const leadership = [
+  {
+    name: "Abiodun",
+    position: "Managing Director and CEO",
+    image: "/assets/abiodun.jpg",
+    description:
+      "Abiodun, a seasoned accountant from Epe, Lagos, brings extensive expertise in cost management, financial strategy, and budget optimization. His leadership, integrity, and strategic foresight have been pivotal in Gabvic Homes' growth. With a track record of success across multiple organizations, he continues to drive innovation and long-term success in the real estate sector.",
+  },
+  {
+    name: "Joshua",
+    position: "Executive Director",
+    image: "/assets/joshua.jpg",
+    description:
+      "Joshua, a real estate broker with over a decade of experience, specializes in market analysis, sales strategy, and investment planning. A native of Ogbe Yagba West, Kogi State, he has held key leadership roles in marketing and operations, shaping Gabvic Homes’ business growth. His ability to forecast trends and implement effective sales strategies has been instrumental in the company’s success.",
+  },
+  {
+    name: "Olalekan ",
+    position: "Legal Partner",
+    image: "/assets/olalekan.png",
+    description:
+      "A vast experienced legal practitioner and very result oriented in legal fields with effectiveness, efficiency and punctuality. He co-ordinates the briefs of the firm generally. He is very accessible and discharges obligations with great sense of responsibility.",
   },
 ];
