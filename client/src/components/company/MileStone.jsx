@@ -80,7 +80,7 @@ function MileStone() {
             <div class="relative">
               <div class="absolute left-[-2.1rem] top-0 w-6 h-6 bg-[#0b0b17] bg-bronze-500  rounded-full z-10"></div>
               <div>
-                <h3 class="text-xl font-bold ">2024</h3>
+                <h3 class="text-xl font-bold ">2025</h3>
                 <h4 class="text-lg font-semibold mt-1">
                   Entry into the US Market with GabvicHomes LLC
                 </h4>

@@ -27,31 +27,32 @@ const Navigation = () => {
         </Link>
 
         {/* Desktop Links */}
-        <div className="hidden md:!flex space-x-4 items-center">
-          {topNavLinks
-            .filter((link) => link.path !== "/reach-us")
-            .map((link, index) => (
-              <Link
-                key={index}
-                to={link.path}
-                className={`${linkBaseStyle} ${
-                  isActive(link.path)
-                    ? "bg-lnight-100 text-lnight-900 font-semibold"
-                    : "font-semibold text-lnight-500"
-                }`}
-              >
-                {link.name}
-              </Link>
-            ))}
-
-          {location.pathname !== "/reach-us" && (
+        <div className="hidden md:flex space-x-4 items-center">
+          {topNavLinks.map((link, index) => (
             <Link
-              to="/reach-us"
-              className="ml-2 px-4 py-2 rounded-lg bg-bronze-700 text-white hover:bg-bronze-500 hover:text-gray-100 transition font-semibold"
+              key={index}
+              to={link.path}
+              className={`${linkBaseStyle} ${
+                isActive(link.path)
+                  ? "bg-lnight-100 text-lnight-900 font-semibold"
+                  : "font-semibold text-lnight-500"
+              }`}
             >
-              Reach Us
+              {link.name}
             </Link>
-          )}
+          ))}
+
+          {/* Reach Us Button */}
+          <Link
+            to="/reach-us"
+            className={`ml-2 px-4 py-2 rounded-lg transition font-semibold ${
+              isActive("/reach-us")
+                ? "bg-bronze-500 text-white"
+                : "bg-bronze-700 text-white hover:bg-bronze-500 hover:text-gray-100"
+            }`}
+          >
+            Reach Us
+          </Link>
         </div>
 
         {/* Mobile Menu Icon */}
@@ -71,32 +72,33 @@ const Navigation = () => {
           transition={{ duration: 0.3 }}
           className="md:hidden bg-white shadow-lg flex flex-col space-y-4 px-6 py-4"
         >
-          {topNavLinks
-            .filter((link) => link.path !== "/reach-us")
-            .map((link) => (
-              <Link
-                key={link.path}
-                to={link.path}
-                className={`${linkBaseStyle} ${
-                  isActive(link.path)
-                    ? "bg-lnight-100 text-lnight-900 font-semibold"
-                    : "font-semibold text-lnight-500"
-                }`}
-                onClick={() => setIsOpen(false)}
-              >
-                {link.name}
-              </Link>
-            ))}
-
-          {location.pathname !== "/reach-us" && (
+          {topNavLinks.map((link) => (
             <Link
-              to="/reach-us"
-              className="px-4 py-2 text-center rounded-sm  bg-bronze-500 text-night-500 hover:bg-bronze-700 hover:text-gray-100 transition font-semibold"
+              key={link.path}
+              to={link.path}
+              className={`${linkBaseStyle} ${
+                isActive(link.path)
+                  ? "bg-lnight-100 text-lnight-900 font-semibold"
+                  : "font-semibold text-lnight-500"
+              }`}
               onClick={() => setIsOpen(false)}
             >
-              Reach Us
+              {link.name}
             </Link>
-          )}
+          ))}
+
+          {/* Reach Us Button (Mobile) */}
+          <Link
+            to="/reach-us"
+            className={`px-4 py-2 text-center rounded-sm transition font-semibold ${
+              isActive("/reach-us")
+                ? "bg-bronze-700 text-white"
+                : "bg-bronze-500 text-night-500 hover:bg-bronze-700 hover:text-gray-100"
+            }`}
+            onClick={() => setIsOpen(false)}
+          >
+            Reach Us
+          </Link>
         </motion.div>
       )}
     </nav>

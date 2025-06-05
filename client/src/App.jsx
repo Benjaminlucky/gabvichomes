@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/home/Home";
-import Projects from "./pages/Projects/Projects";
+import Projects from "./pages/projects/Projects";
 import Services from "./pages/services/Services";
 import Reach from "./pages/reach/Reach";
 import Company from "./pages/company/Company";
