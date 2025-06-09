@@ -69,7 +69,7 @@ function Testimony() {
                     <p className="cardText text-center hyphens-auto">
                       {item.desc}
                     </p>
-                    <div className="card__name flex justify-center items-center gap-2 mt-6">
+                    <div className="card__name flex flex-col justify-center items-center gap-2 mt-6">
                       <h1 className="font-bold text-lg text-night-800">
                         {item.name}
                       </h1>

@@ -1,8 +1,18 @@
-import React from "react";
+import React, { useRef } from "react";
+import { motion, useInView } from "framer-motion";
 
 function Abouthero() {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, amount: 0.2 });
+
   return (
-    <div className="aboutHero__container w-full text-white">
+    <motion.div
+      ref={ref}
+      initial={{ opacity: 0, y: 50 }}
+      animate={isInView ? { opacity: 1, y: 0 } : {}}
+      transition={{ duration: 1, ease: "easeOut" }}
+      className="aboutHero__container w-full text-white"
+    >
       <div className="aboutHero__wrapper w-full py-20 md:py-30">
         <div className="contentTop flex justify-center items-center">
           <h2 className="w-full md:w-8/12 md:leading-18 text-lg md:text-5xl font-bold text-center">
@@ -32,7 +42,7 @@ function Abouthero() {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

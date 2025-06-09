@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useRef } from "react";
+import { motion, useInView } from "framer-motion";
 import { leadership } from "../../data";
 
 function Team() {
@@ -11,38 +12,52 @@ function Team() {
           </span>
           <h3 className="text-5xl font-bold">Leadership</h3>
         </div>
+
         <div className="teamDetails w-full mt-16 md:mt-24">
           <div className="details__content w-full gap-4 grid grid-cols-1 md:grid-cols-2">
-            {leadership.map((team, index) => (
-              <div
-                className="team flex flex-col  p-4 md:p-6 md:flex-row bg-white"
-                key={index}
-              >
-                <div className="left flex justify-center items-center">
-                  <div className="leftContent flex justify-center items-center">
-                    <img
-                      src={team.image}
-                      alt=""
-                      className="w-700 h-96 object-cover"
-                    />
+            {leadership.map((team, index) => {
+              const cardRef = useRef(null);
+              const isInView = useInView(cardRef, { once: true, amount: 0.2 });
+
+              return (
+                <motion.div
+                  ref={cardRef}
+                  key={index}
+                  initial={{ opacity: 0, y: 40 }}
+                  animate={isInView ? { opacity: 1, y: 0 } : {}}
+                  transition={{
+                    duration: 0.7,
+                    ease: "easeOut",
+                    delay: index * 0.2,
+                  }}
+                  className="team flex flex-col p-4 md:p-6 md:flex-row bg-white"
+                >
+                  <div className="left flex justify-center items-center">
+                    <div className="leftContent flex justify-center items-center">
+                      <img
+                        src={team.image}
+                        alt={team.name}
+                        className="w-700 h-96 object-cover"
+                      />
+                    </div>
                   </div>
-                </div>
-                <div className="right px-4 ">
-                  <div className="top flex flex-col md:flex-row text-center  md:text-left gap-2 pt-8 pb-4 items-center">
-                    <h4 className="font-bold text-xl md:text-lg text-gray-800">
-                      {team.name}
-                    </h4>
-                    <h4 className="text-gray-600 font-semibold">
-                      {team.position}
-                    </h4>
+
+                  <div className="right px-4">
+                    <div className="top flex flex-col text-left md:text-left gap-1 pt-8 pb-2">
+                      <h4 className="font-bold text-xl md:text-lg text-gray-800">
+                        {team.name}
+                      </h4>
+                      <h4 className="text-gray-600 font-semibold">
+                        {team.position}
+                      </h4>
+                    </div>
+                    <div className="bottom text-gray-700 text-justify hyphens-auto">
+                      <p>{team.description}</p>
+                    </div>
                   </div>
-                  <div className="bottom text-gray-700 text-justify hyphens-auto">
-                    <p>{team.description}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-            ;
+                </motion.div>
+              );
+            })}
           </div>
         </div>
       </div>
