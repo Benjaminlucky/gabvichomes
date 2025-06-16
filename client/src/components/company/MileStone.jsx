@@ -16,7 +16,7 @@ function MileStone() {
     {
       year: "2022",
       title: "Alaafin Imperial Court",
-      desc: `Alaafin Imperial Court is an exclusive, secure estate within the New Lekki Smart City, featuring 32 architecturally distinct homes. Designed for those who appreciate royalty, serenity, and prestige, this estate offers a luxurious living experience inspired by Yoruba heritage.`,
+      desc: `Alaafin Imperial Court is an exclusive, secure estate proposed to be located within Oyo Alafin Metropolis in oyo state, featuring 32 architecturally distinct homes. Designed for those who appreciate royalty, serenity, and prestige, this estate offers a luxurious living experience inspired by Yoruba heritage.`,
     },
     {
       year: "2025",

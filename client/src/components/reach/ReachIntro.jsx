@@ -45,8 +45,12 @@ function ReachIntro() {
             <p className="mt-1 text-gray-300">
               Gabvichomes & Properties Limited
             </p>
-            <p className="text-gray-300">NO. 3, Admiralty Lane, Eti-Osa</p>
-            <p className="text-gray-300">L.G.A, Lagos State, Nigeria</p>
+            <p className="text-gray-300">
+              Hilltop Castle Estate Imokun Shiraye Road,
+            </p>
+            <p className="text-gray-300">
+              Eredo, Epe L.G.A, Lagos State, Nigeria
+            </p>
           </div>
 
           <div className="py-5">
@@ -58,8 +62,8 @@ function ReachIntro() {
             </p>
             <div className="mt-2">
               <p className="font-medium text-gray-300">Phone Numbers:</p>
-              <p className="text-gray-300">Nigeria: +234 XXX XXXXX</p>
-              <p className="text-gray-300">USA: +1 XXX XXXX</p>
+              <p className="text-gray-300">Nigeria: +234 8155 021 654</p>
+              <p className="text-gray-300">USA: +1 773-816-6624 </p>
             </div>
             <div className="mt-4">
               <p className="font-medium text-white">Email:</p>
@@ -89,12 +93,12 @@ function ReachIntro() {
                 {
                   href: "https://facebook.com/gabvichomes",
                   icon: <FaFacebook className="text-bronze-900" />,
-                  label: "facebook.com/gabvichomes",
+                  label: "gabvichomes & Properties Limited",
                 },
                 {
                   href: "https://instagram.com/gabvic_homes",
                   icon: <AiFillInstagram className="text-bronze-900" />,
-                  label: "@gabvic_homes",
+                  label: "@gabvichomesproperties",
                 },
                 {
                   href: "https://linkedin.com/gabvichomesltd",
